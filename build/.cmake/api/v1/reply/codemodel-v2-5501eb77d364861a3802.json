@@ -28,8 +28,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/opengl/code/RayCode/04_Hello_Lightcasters/build",
-		"source" : "D:/opengl/code/RayCode/04_Hello_Lightcasters/include/glm"
+		"build" : "D:/opengl/code/RayCode/04_Hello_ParallelLight/build",
+		"source" : "D:/opengl/code/RayCode/04_Hello_ParallelLight/include/glm"
 	},
 	"version" : 
 	{

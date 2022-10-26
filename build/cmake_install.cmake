@@ -1,4 +1,4 @@
-# Install script for directory: D:/opengl/code/RayCode/04_Hello_Lightcasters/include/glm
+# Install script for directory: D:/opengl/code/RayCode/04_Hello_ParallelLight/include/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/opengl/code/RayCode/04_Hello_Lightcasters/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/opengl/code/RayCode/04_Hello_ParallelLight/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

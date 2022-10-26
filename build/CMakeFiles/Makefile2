@@ -53,10 +53,10 @@ RM = D:\vscode\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\opengl\code\RayCode\04_Hello_Lightcasters\include\glm
+CMAKE_SOURCE_DIR = D:\opengl\code\RayCode\04_Hello_ParallelLight\include\glm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\opengl\code\RayCode\04_Hello_Lightcasters\build
+CMAKE_BINARY_DIR = D:\opengl\code\RayCode\04_Hello_ParallelLight\build
 
 #=============================================================================
 # Directory level rules for the build root directory

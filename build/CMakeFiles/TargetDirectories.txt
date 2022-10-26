@@ -1,2 +1,2 @@
-D:/opengl/code/RayCode/04_Hello_Lightcasters/build/CMakeFiles/edit_cache.dir
-D:/opengl/code/RayCode/04_Hello_Lightcasters/build/CMakeFiles/rebuild_cache.dir
+D:/opengl/code/RayCode/04_Hello_ParallelLight/build/CMakeFiles/edit_cache.dir
+D:/opengl/code/RayCode/04_Hello_ParallelLight/build/CMakeFiles/rebuild_cache.dir

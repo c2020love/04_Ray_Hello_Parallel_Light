@@ -93,8 +93,8 @@ int main()
         glm::vec3(1.5f, 0.2f, -1.5f),
         glm::vec3(-1.3f, 1.0f, -1.5f)};
 
-    Shader lightShader("D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\shader\\lightvertex.glsl", "D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\shader\\lightfragment.glsl");
-    Shader cubeShader("D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\shader\\cubevertex.glsl", "D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\shader\\cubefragement.glsl");
+    Shader lightShader("D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\shader\\lightvertex.glsl", "D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\shader\\lightfragment.glsl");
+    Shader cubeShader("D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\shader\\cubevertex.glsl", "D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\shader\\cubefragement.glsl");
     //@创建vbo顶点缓冲对象来储存大量顶点
     unsigned int cubeVAO, VBO, lightVAO;
     glGenBuffers(1, &VBO);
@@ -158,9 +158,9 @@ int main()
         3.是否需要矩阵转置
         4.传递矩阵数据，把数据变成OpenGL所接受的
     */
-    char *str1 = "D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\sources\\wood.png";
-    char *str2 = "D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\sources\\iron.png";
-    char *str3 = "D:\\opengl\\code\\RayCode\\04_Hello_Lightcasters\\src\\sources\\matrix.jpg";
+    char *str1 = "D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\sources\\wood.png";
+    char *str2 = "D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\sources\\iron.png";
+    char *str3 = "D:\\opengl\\code\\RayCode\\04_Hello_ParallelLight\\src\\sources\\matrix.jpg";
     // std::cout<<str1<<std::endl<<str2<<std::endl;
     unsigned int diffuseMap = loadTexture(str1);
     unsigned int specularMap = loadTexture(str2);
